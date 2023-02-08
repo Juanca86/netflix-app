@@ -1,0 +1,8 @@
+<div class="container">
+<h1> {{top5.title}} </h1>
+<div>
+    <ng-container class="top5" *ngFor="let peli of top5.image">
+        <img src="{{peli.src}}" alt="{{peli.alt}}">
+    </ng-container>
+</div>
+</div>

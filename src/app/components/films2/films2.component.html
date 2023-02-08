@@ -1,0 +1,6 @@
+<h3> {{terrorFilms.title}} </h3>
+<div>
+    <ng-container class="terror" *ngFor="let peli of terrorFilms.image">
+        <img src="{{peli.src}}" alt="{{peli.alt}}">
+    </ng-container>
+</div>

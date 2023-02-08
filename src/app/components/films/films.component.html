@@ -1,0 +1,8 @@
+<h3> {{accionFilms.title}} </h3>
+<div>
+    <ng-container class="accion" *ngFor="let peli of accionFilms.image">
+        <img src="{{peli.src}}" alt="{{peli.alt}}">
+    </ng-container>
+</div>
+
+
